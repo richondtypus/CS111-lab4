@@ -14,13 +14,13 @@ To compile, run:
 ```
 To mount, run:
 ```
-mkdir mnt sudo mount -o loop cs111-base.img mnt
+mkdir mnt sudo; mount -o loop cs111-base.img mnt
 ```
 
 ## Cleaning up
 To unmount the filesystem, run:
 ```
-sudo unmount
+sudo umount
 ```
 To delete the directory used for mounting, run:
 ```
